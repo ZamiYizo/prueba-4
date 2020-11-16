@@ -15,7 +15,6 @@ import com.example.demo.model.Clientes;
 import com.example.demo.model.Proveedores;
 
 @Controller
-@RequestMapping("/")
 public class controlador {
 	@GetMapping("/examenUnidad2")
 	public String index() {
